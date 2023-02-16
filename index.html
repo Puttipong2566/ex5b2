@@ -32,7 +32,7 @@
                     <option value="R">Réaumur</option>
                 </select>
             </div>
-            <br><button type="button" class="btn btn-primary" onclick="ShowResult()">Convert</button>
+            <br><button type="button" class="btn btn-primary" onclick="Result()">Convert</button>
         </form>
     </div>
     <div id="result" style="margin-top:10px;margin-left:10px; font-size: 20px; color:red;">
@@ -51,7 +51,7 @@
             return true;
         }
         
-        function ShowResult() {
+        function Result() {
             var t = $('#temp').val();
             var u = $('#unit').val();
 
